@@ -1,0 +1,113 @@
+<html>
+<head>
+    <title>Student Registration Form Using Table in HTML</title>
+    <style>
+        h2 {
+            font-family: Sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: bold;
+            color: blue;
+            text-align: center;
+            text-decoration: underline
+        }
+
+        table {
+            font-family: verdana;
+            color: white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+            border-collapse: collapse;
+            border: 4px solid #000000;
+            border-style: dashed;
+        }
+
+        table.inner {
+            border: 10px
+        }
+
+        input[type=text], input[type=email], input[type=number] {
+            width: 50%;
+            padding: 6px 12px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        input[type=submit], input[type=reset] {
+            width: 15%;
+            padding: 8px 12px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<h2>Student Registration Form Using Table in HTML</h3>
+<table align="center" cellpadding="10">
+    <tr>
+        <td>First Name:</td>
+        <td><input type="text" name="first_name" required></td>
+    </tr>
+    <tr>
+        <td>Last Name:</td>
+        <td><input type="text" name="last_name" required></td>
+    </tr>
+    <tr>
+        <td>Email ID:</td>
+        <td><input type="email" name="email" required></td>
+    </tr>
+    <tr>
+        <td>Mobile Number:</td>
+        <td><input type="number" name="mobile_number" required></td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td><input type="text" name="address" required></td>
+    </tr>
+    <tr>
+        <td>Hobbies:</td>
+        <td><input type="text" name="hobbies" required></td>
+    </tr>
+    <tr>
+        <td>Course:</td>
+        <td><input type="text" name="course" required></td>
+    </tr>
+    <tr>
+        <td>Gender:</td>
+        <td>
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female" required> Female
+        </td>
+    </tr>
+    <tr>
+        <td>Date of Birth:</td>
+        <td><input type="date" name="dob" required></td>
+    </tr>
+    <tr>
+        <td>City:</td>
+        <td><input type="text" name="city" required></td>
+    </tr>
+    <tr>
+        <td>District:</td>
+        <td><input type="text" name="district" required></td>
+    </tr>
+    <tr>
+        <td>State / Province:</td>
+        <td><input type="text" name="state" required></td>
+    </tr>
+    <tr>
+        <td>Pincode:</td>
+        <td><input type="number" name="pincode" required></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
